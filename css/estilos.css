@@ -1,450 +1,268 @@
 * {
-    padding: 0px;
-    margin: 0px;
+  margin: 0;
+  padding: 0;
 }
 
-body {
-    background-color: #aeb109;
+html {
+  font-size: 62.5%;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
-.bienvenida {
-    display: none;
-}
-
-
-img {
-    width: 100%;
-    height: 100%;
-}
-
-/* grids */
-
-h6 {
-text-align: center;
-font-size: 2rem;
-
-}
-
-.grid-container {
-    display: grid;
-    border: 2px solid rgb(16, 17, 5);
-    margin: 0;
-}
-
-.grid {
-    height: 100px;
-}
-
-.rojo {
-    background-color: red;
-    width: 100%;
-}
-
-.verde {
-    background-color: green;
-    width: 100%;
-
-}
-
-
-/* HEADER */
-li {
-    display: inline-block;
-    margin-left: 50px;
-    list-style: none;
-}
-
-a {
-    text-decoration: none;
-    color: black;
-    font-size: 2rem;
-    display: block;
-    text-align: center;
-}
-
-nav {
-    background-color: rgb(97, 25, 92);
-    height: 100%;
-}
-
-header {
-    position: sticky;
-    top: 0;
-    height: 12rem;
-    margin-bottom: 4rem;
-}
-
-.li_container {
-display: flex;
-justify-content: space-around;
-align-items: center;
-height: 100%;
-flex-direction: column;
-margin-right: 6rem;
-}
-
-.home {
-    display: flex;
-    flex-wrap: wrap;
-
+h1, h2, h3, h4 {
+  font-family: "Source Serif Pro", serif;
 }
 
 h1 {
-    text-align: center;
+  text-align: center;
+  font-size: 6rem;
+  color: gold;
 }
 
 h2 {
-
-    text-align: center;
-    margin-top: 50px;
+  font-size: 2rem;
+  color: gold;
 }
 
-.d-formulario {
-
-    display: grid;
-    margin: 50px;
-
-}
-
-.input-contacto {
-
-    margin: 20px;
-}
-
-p {
-    margin: 10px;
-    text-align: center;
-}
-
-.in-flex {
-    flex: 1;
-    min-width: 300px;
-    height: 100%;
-}
-
-
-.in-flex-compo{
-    flex: auto;
-    padding: 25px;
-    background-color: #fff;
-    margin: 20px;
-    }
-
-.in-flex:first-child {
-    flex: 2;
-    padding: 25px;
-    background-color: #fff;
-    margin: 20px;
-    margin-bottom: 0px;
-}
-.in-flex div {
-    padding: 25px;
-    background-color: #7e175b;
-    margin: 20px;
-}
-
-ul {
-    padding: 0;
-}
-
-section {
-    margin-top: 0rem;
-}
-
-.carousel-container {
-    height: 200px;
-    width: 300px;
-    margin:auto
-}
-
-
-/* main - cards */
-h1{
-    text-align: center;
-    font-size: 2rem;
-    margin-top: 20px;
-}
-.card_container{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    margin-top: 4rem;
-    margin-bottom: 4rem;
-}
-.card {
-    width: 190px;
-    height: 254px;
-    padding: .8em;
-    background: #f5f5f5;
-    position: relative;
-    overflow: visible;
-    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
-}
-
-.card-img {
-    background-color: #ffcaa6;
-    height: 40%;
-    width: 100%;
-    border-radius: .5rem;
-    transition: .3s ease;
-}
-
-.card-info {
-    padding-top: 10%;
-}
-
-svg {
-    width: 20px;
-    height: 20px;
-}
-
-.card-footer {
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding-top: 1px;
-    border-top: 1px solid #ddd;
-}
-
-/*Text*/
-.text-title {
-    font-weight: 900;
-    font-size: 1.2em;
-    line-height: 1.5;
-}
-
-.text-body {
-    font-size: .9em;
-    padding-bottom: 10px;
-}
-
-/*Button*/
-.card-button {
-    border: 1px solid #252525;
-    display: flex;
-    padding: .3em;
-    cursor: pointer;
-    border-radius: 50px;
-    transition: .3s ease-in-out;
-}
-
-/*Hover*/
-.card-img:hover {
-    transform: translateY(-25%);
-    box-shadow: rgba(226, 196, 63, 0.25) 0px 13px 47px -5px, rgba(180, 71, 71, 0.3) 0px 8px 16px -8px;
-}
-
-.card-button:hover {
-    border: 1px solid #ffcaa6;
-    background-color: #ffcaa6;
-}
-
-
-
-/* Footer */
-
-.img_container {
-    height: 5rem;
-    width: 5rem;
-    }
-
-footer {
-    background-color: rgb(60, 5, 97);
-    height: 13rem;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    margin-top: 4rem;
-    flex-direction: column;
-}
-
-footer p {
-    font-size: 25px;
-    text-align: center;
-}
-
-
-
-@media screen and (min-width: 768px) {
-
-    * {
-        margin: 0;
-        padding: 0;
-    }
-
-
-
-
-.bienvenida {
-display: block;
-}
-
-p {
-    text-align: center;
-}
-
-h1 {
-    text-align: center;
-}
-
-h2{
-    text-align: center;
-}
-
-h3{
-    text-align: center;
-}
-
-h4 {
-    text-align: center;
-}
-h5 {
-    text-align: center;
-}
-
-h6 {
-    text-align: center;
-    font-size: 3rem;
-}
-
-img {
-    width: 100%;
-    height: 100%;
-}
-
-.d-formulario {
-
-    display: flex;
-    justify-content: space-around;
-    margin: 50px;
-}
-
-.input-contacto {
-
-    margin: 0;
-    font-family: inherit;
-    font-size: inherit;
-    line-height: inherit;
-    height: 30px;
-}
-
-.div-img-container {
-    padding: 0px;
-    background-color: #dfbe2f;
-    margin: 10rem;
-}
-
-.img-placa {
-    display: block;
-    margin: 25px
-    width: 100%;
-    height: 500px;
-}
-
-.img-g {
-display: block;
-margin: 25px;
-width: 800px;
-height: 400px;
-
-}
-
-    /* HEADER */
-li {
-    display: inline-block;
-    margin-left: 50px;
-    list-style: none;
-}
-
-a {
-    text-decoration: none;
-    color: black;
-    font-size: 29px;
-}
-
-nav {
-    background-color: rgb(97, 25, 92);
-    height: 100%;
+h3, h4 {
+  text-align: center;
+  margin: 40px 0px;
+  font-size: 15px;
 }
 
 header {
-    position: sticky;
-    top: 0;
-    height: 4rem;
-    margin-bottom: 4rem;
+  background: url(https://static.vecteezy.com/system/resources/previews/002/393/570/non_2x/black-modern-material-header-with-diagonal-silver-lines-banner-for-your-business-abstract-widescreen-background-vector.jpg);
+  background-size: cover;
+  width: 100%;
+  height: 420px;
+  padding: 40px 0px;
+}
+header nav ul {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  display: flex;
+}
+header nav ul li {
+  list-style: none;
+}
+header nav ul li a {
+  padding: 10px;
+  display: block;
+  background-color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: black;
+}
+header nav ul li a:hover {
+  background-color: black;
+  color: gold;
+  cursor: pointer;
 }
 
-.li_container {
-display: block;
-justify-content: space-around;
-align-items: center;
-height: 100%;
-text-align: center;
+header button {
+  background-color: white;
+  color: black;
+  border: none;
+  padding: 10px;
+  text-transform: uppercase;
 }
-
-.home {
-    display: flex;
-    flex-wrap: wrap;
-
-}
-
-.in-flex {
-    flex: 1;
-    min-width: 300px;
-}
-
-
-.in-flex-compo{
-    flex: auto;
-    padding: 25px;
-    background-color: #fff;
-    margin: 20px;
-    }
-
-.in-flex:first-child {
-    flex: 2;
-    padding: 25px;
-    background-color: #fff;
-    margin: 20px;
-    margin-bottom: 0px;
-}
-.in-flex div {
-    padding: 25px;
-    background-color: #792b64;
-    margin: 20px;
-}
-
-.carousel-inner {
-
-    max-height: 30rem;
-}
-
-.container {
-
-    margin-top: 5rem;
-}
-
-
-/* Footer */
-
-.img_container {
-    height: 5rem;
-    width: 5rem;
+header button:hover {
+  background-color: black;
+  color: gold;
+  cursor: pointer;
 }
 
 footer {
-    background-color: rgba(78, 14, 97, 0.774);
-    height: 10rem;
+  margin-top: 25px;
+  background-color: black;
+  padding: 40px 0px;
+}
+footer span {
+  color: gold;
+  padding: 10px;
+}
+footer span img {
+  width: 45px;
+  height: 35px;
+}
+
+@media screen and (min-width: 768px) {
+  * {
+    margin: 0;
+    padding: 0;
+  }
+  html {
+    font-size: 62.5%;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  header {
+    background: url(https://static.vecteezy.com/system/resources/previews/002/393/570/non_2x/black-modern-material-header-with-diagonal-silver-lines-banner-for-your-business-abstract-widescreen-background-vector.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 420px;
+    padding: 40px 0px;
+  }
+  header nav ul {
+    position: absolute;
+    top: 10px;
+    right: 10px;
     display: flex;
-    justify-content: space-around;
-    align-items: center;
-    margin-top: 4rem;
-    flex-direction: row;
+  }
+  header nav ul li {
+    list-style: none;
+  }
+  header nav ul li a {
+    padding: 10px;
+    display: block;
+    background-color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+  }
+  header nav ul li a:hover {
+    background-color: black;
+    color: gold;
+    cursor: pointer;
+  }
+  header button {
+    background-color: white;
+    color: black;
+    border: none;
+    padding: 10px;
+    text-transform: uppercase;
+  }
+  header button:hover {
+    background-color: black;
+    color: gold;
+    cursor: pointer;
+  }
+  header img {
+    width: 200px;
+    height: 200px;
+  }
+  div img {
+    width: 320px;
+    height: 320px;
+  }
+  .contenedor {
+    width: 100%;
+    max-width: 1140px;
+    margin: auto;
+  }
+  h1, h2, h3, h4 {
+    font-family: "Source Serif Pro", serif;
+  }
+  h1 {
+    text-align: center;
+    font-size: 6rem;
+    color: gold;
+  }
+  h2 {
+    font-size: 2rem;
+    color: gold;
+  }
+  h3, h4 {
+    text-align: center;
+    margin: 40px 0px;
+    font-size: 15px;
+  }
+  p {
+    text-transform: uppercase;
+    text-align: center;
+  }
+  section {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  section div {
+    flex-grow: 1;
+  }
+  section div img {
+    display: block;
+    margin: auto;
+    padding: 20px;
+  }
+  .medios_de_pago {
+    width: 40px;
+    height: 25px;
+  }
+}
+footer {
+  margin-top: 25px;
+  background-color: black;
+  padding: 40px 0px;
+}
+footer span {
+  color: gold;
+  padding: 10px;
+}
+footer span img {
+  width: 45px;
+  height: 35px;
 }
 
-footer p {
-    font-size: 3rem;
+div img {
+  width: 100%;
+  height: 100%;
 }
 
+.contenedor {
+  width: 100%;
+  max-width: 1140px;
+  margin: auto;
+  padding: 10px;
 }
+
+.contenedor-ubi {
+  width: 100%;
+  max-width: 1140px;
+  margin: auto;
+}
+
+p {
+  text-transform: uppercase;
+  text-align: center;
+  margin: 10px;
+}
+
+section {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+section div {
+  flex-grow: 1;
+}
+
+section div img {
+  display: block;
+  margin: auto;
+  height: 300px;
+  width: 300px;
+}
+
+.medios_de_pago {
+  width: 80px;
+  height: 70px;
+}
+
+header img {
+  width: 200px;
+  height: 180px;
+}
+
+footer img {
+  width: 45px;
+  height: 35px;
+}
+
+iframe {
+  margin: auto;
+  display: flex;
+}
+
+.d-block {
+  height: 500px;
+}
+
+/*# sourceMappingURL=estilos.css.map */
