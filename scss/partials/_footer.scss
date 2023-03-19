@@ -1,6 +1,7 @@
+@use'./variables';
 footer{
     margin-top: 25px;
-    background-color: black;
+    background-color: variables.$main-color;
     padding: 40px 0px;
     span {
         color: gold;

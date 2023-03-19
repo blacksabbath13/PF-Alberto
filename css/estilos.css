@@ -57,6 +57,7 @@ header nav ul li a:hover {
   background-color: black;
   color: gold;
   cursor: pointer;
+  transition: 0.5s;
 }
 
 header button {
@@ -67,14 +68,15 @@ header button {
   text-transform: uppercase;
 }
 header button:hover {
-  background-color: black;
+  background-color: rgba(0, 0, 0, 0);
   color: gold;
   cursor: pointer;
+  transition: 0.5s;
 }
 
 footer {
   margin-top: 25px;
-  background-color: black;
+  background-color: rgba(0, 0, 0, 0);
   padding: 40px 0px;
 }
 footer span {
@@ -235,8 +237,8 @@ section div {
 }
 
 section div img {
-  display: block;
   margin: auto;
+  display: flex;
   height: 300px;
   width: 300px;
 }

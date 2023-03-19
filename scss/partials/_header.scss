@@ -1,3 +1,4 @@
+@use'./variables';
 header {
     background: url(https://static.vecteezy.com/system/resources/previews/002/393/570/non_2x/black-modern-material-header-with-diagonal-silver-lines-banner-for-your-business-abstract-widescreen-background-vector.jpg);
     background-size: cover;
@@ -22,6 +23,7 @@ header {
                         background-color: black;
                         color: gold;
                         cursor: pointer;
+                        transition: .5s;
                     }
                 }
             }
@@ -38,9 +40,10 @@ header {
         padding: 10px;
         text-transform: uppercase;
         &:hover{
-        background-color: black;
+        background-color: variables.$main-color;
             color: gold;
             cursor: pointer;
+            transition: .5s;
         }    
     }
 }
